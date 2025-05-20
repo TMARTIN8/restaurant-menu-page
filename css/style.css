@@ -1,0 +1,62 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffefa;
+  color: #222;
+}
+
+nav {
+  background-color: #008000; /* Jamaican green */
+  padding: 1rem;
+  position:fixed;
+  width:100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  z-index: 0;
+}
+
+#tm {
+  font-size:  4em;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #e4a700; /* Jamaican gold */
+}
+
+.course ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course li {
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
